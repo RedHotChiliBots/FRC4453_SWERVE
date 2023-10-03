@@ -6,9 +6,9 @@ See [the online changelog](https://github.com/RedHotChiliBots/FRC4453_SWERVE/blo
 
 FRC 4453 2024 swerve drivetrain
 
-This project is built on Swerve Drive Specialties Mk4i modules, each with two SparkMax controllers and two NEOs, one for Drive motor and one for Turn motor.  The absolute encoder is the CTRE Mag Encoder custom wired to a Rev Encoder Breakout board attached to the Data Port on the Turn SparkMax.
+This project is built on Swerve Drive Specialties Mk4i modules, each with two SparkMax controllers and two NEOs, one for Drive motor and one for Turn motor.  The absolute encoder is the CTRE Mag Encoder custom wired to a Rev Encoder Breakout board attached to the Data Port on the Turn SparkMax.  Field relative capability is provide by a NavX MSP board connected to the RoboRio.
 
-The absolute encoders are calibrated by setting the zero offset using the Rev Hardware Client.  Zero is set the same for all modules to allow module replacement. 
+The Absolute Encoders are calibrated by setting the zero offset using the Rev Hardware Client.  Zero is set the same for all modules to allow module replacement. 
 
 ## Prerequisites
 
