@@ -1,14 +1,14 @@
 # MAXSwerve Java Template v2023.1
 
-See [the online changelog](https://github.com/REVrobotics/MAXSwerve-Java-Template/blob/main/CHANGELOG.md) for information about updates to the template that may have been released since you created your project.
+See [the online changelog](https://github.com/RedHotChiliBots/FRC4453_SWERVE/blob/main/CHANGELOG.md) for information about updates to this project.
 
 ## Description
 
-A template project for an FRC swerve drivetrain that uses REV MAXSwerve Modules.
+FRC 4453 2024 swerve drivetrain
 
-Note that this is meant to be used with a drivetrain composed of four MAXSwerve Modules, each configured with two SPARKS MAX, a NEO as the driving motor, a NEO 550 as the turning motor, and a REV Through Bore Encoder as the absolute turning encoder.
+This project is built on Swerve Drive Specialties Mk4i modules, each with two SparkMax controllers and two NEOs, one for Drive motor and one for Turn motor.  The absolute encoder is the CTRE Mag Encoder custom wired to a Rev Encoder Breakout board attached to the Data Port on the Turn SparkMax.  Field relative capability is provide by a NavX MSP board connected to the RoboRio.
 
-To get started, make sure you have calibrated the zero offsets for the absolute encoders in the Hardware Client using the `Absolute Encoder` tab under the associated turning SPARK MAX devices.
+The Absolute Encoders are calibrated by setting the zero offset using the Rev Hardware Client.  Zero is set the same for all modules to allow module replacement. 
 
 ## Prerequisites
 
