@@ -99,6 +99,7 @@ public class Chassis extends SubsystemBase {
             m_rearRight.getPosition()
         });
 
+    // Add Swerve Drive to SmartDashboard
     SwerveModuleState[] currentStates = new SwerveModuleState[4];
     double[] targetSpeeds = new double[4];
     double[] targetAngles = new double[4];
